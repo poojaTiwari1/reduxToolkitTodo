@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom'
 import TodoList from './components/TodoList/TodoList'
 import DragDropLi from './components/dragDrop/DragDropLi'
 import { DragDropText } from './components/dragDrop/DragDropText'
+import TrafficLights from './components/TrafficLights/TrafficLights'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<TodoList />} />
         <Route path='/dragdropli' element={<DragDropLi />} />
         <Route path='/dragdroptext' element={<DragDropText />} />
+        <Route path='/traffic' element={<TrafficLights />} />
       </Routes>
     </>
   )
